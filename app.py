@@ -1,9 +1,8 @@
 from flask import Flask, url_for, render_template, request
 from Digits_model import main
- # from io import BytesIO
- # import base64
 
 app = Flask(__name__)
+
 
 @app.route("/", methods=["POST", "GET"])
 def index():
@@ -15,4 +14,4 @@ def index():
 
 
 if __name__ == "__main__":
-     app.run(debug=True)
+    app.run(debug=True)
