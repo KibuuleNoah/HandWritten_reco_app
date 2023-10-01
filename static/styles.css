@@ -1,0 +1,45 @@
+#handwritingCanvas{
+  border: 5px solid green;
+  background-color: #000;
+}
+
+#clear-btn,#send-btn{
+  background-color: green;
+  height: 50px;
+  width: 70px;
+  color: cornsilk;
+  border-radius: 5px;
+  box-shadow: 2px 1px 0px green;
+  margin: 5px;
+}
+
+#clear-btn:active{
+  background-color: greenyellow;
+  color: goldenrod;
+  box-shadow: 0px;
+}
+
+#send-btn{
+  width: 90px;
+}
+
+#send-btn:active{
+  background-color: springgreen;
+  color: gold;
+  box-shadow: 0px;
+}
+
+#output{
+  border-radius: 5px;
+  border: 3px double springgreen;
+}
+#class{
+  display: inline-block;
+  border: 3px dashed gold;
+  margin-left: 20px;
+}
+
+#image{
+  color: red;
+  background-color: burlywood;
+}

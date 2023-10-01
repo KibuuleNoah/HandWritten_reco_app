@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="{{url_for('static',filename='styles.css')}}" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <canvas id="handwritingCanvas" height="300" width="300"></canvas>
+    <br>
+    <button id="clear-btn" onclick="clearCanvas()">Clear</button>
+    <h3 id="class">classified As: <strong>{{preds}}</strong></h3>
+    <br>
+    <form method="POST">
+      <textarea id="output" name="output"></textarea>
+      <br>
+      <button id="send-btn" type="submit">send</button>
+    </form>
+    <img id="image" src="" alt="test-image"> 
+    <script src="{{url_for('static',filename='index.js')}}" type="text/javascript"></script>
+  </body>
+</html>
